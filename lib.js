@@ -52,4 +52,4 @@ const lib = {
   notifyCustomer,
 };
 
-export default lib;
+export {lib};

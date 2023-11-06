@@ -1,5 +1,5 @@
 function fizzBuzz(input) {
-  if (typeof input !== "number") throw new Error("Input should be a number.");
+  if (typeof input !== Number) throw new Error("Input should be a number.");
 
   if (input % 3 === 0 && input % 5 === 0) return "FizzBuzz";
 
@@ -10,4 +10,4 @@ function fizzBuzz(input) {
   return input;
 }
 
-export default fizzBuzz;
+export { fizzBuzz };
